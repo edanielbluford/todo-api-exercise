@@ -1,0 +1,21 @@
+#container {
+  background-color: lightblue;
+  margin: 2rem auto;
+  width: 1000px;
+  padding: 0.5rem 2rem;
+}
+
+.nav__header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav__buttons {
+  display: flex;
+}
+
+.nav__buttons li {
+  list-style-type: none;
+  margin-left: 1rem;
+}
